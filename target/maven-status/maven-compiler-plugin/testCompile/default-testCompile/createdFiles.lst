@@ -1,0 +1,10 @@
+steps\ScenarioOutline_step.class
+runner\LoginRunner.class
+steps\Hooks_Steps.class
+hooks\HooksStudy.class
+runner\TagsRunner.class
+runner\HooksRunner.class
+steps\DataTable_Steps.class
+steps\StepDefination.class
+steps\StepDefination2.class
+steps\TagsStudy.class
