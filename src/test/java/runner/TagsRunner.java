@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 (
 	features= {"src\\test\\resources\\TestingFolder\\tags.feature"},
 	glue= {"steps"},
-	plugin={"pretty"},
+	plugin={"pretty","html:target/cucumber-report/tagsReport.html"},
 	publish=true,
 	tags="@sanity and @smoke",
 	dryRun=false
