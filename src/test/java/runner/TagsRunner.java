@@ -10,8 +10,8 @@ import io.cucumber.testng.CucumberOptions;
 	glue= {"steps"},
 	plugin={"pretty","html:target/cucumber-report/tagsReport.html"},
 	publish=true,
-	tags="@sanity and @smoke",
-	dryRun=false
+	tags="@sanity and @smoke"
+	//dryRun=false
 )
 
 
